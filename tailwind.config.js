@@ -5,7 +5,7 @@ module.exports = {
     // defaultLineHeights: true,
     // standardFontWeights: true
   },
-  purge:  [],
+  purge: { enabled: true, content: [ 'src/index.html' ] },
   theme: {
     extend: {
       spacing: {
